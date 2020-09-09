@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\jds21\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\jds21\\.nuget\\packages"
+    ]
+  }
+}
