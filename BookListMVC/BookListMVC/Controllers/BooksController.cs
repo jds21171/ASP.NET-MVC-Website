@@ -26,14 +26,14 @@ namespace BookListMVC.Controllers
         public IActionResult Upsert(int? id)
         {
             Book = new Book();
-            if (id==null)
+            if (id == null)
             {
                 // Create
                 return View(Book);
             }
             // Update
             Book = _db.Books.FirstOrDefault(u => u.Id == id);
-            if (Book==null)
+            if (Book == null)
             {
                 return NotFound();
             }

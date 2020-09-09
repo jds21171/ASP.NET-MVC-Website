@@ -9,7 +9,6 @@ namespace BookListMVC.Models
     public class Book
     {
         [Key]
-        public int ID { get; set; }
         public int Id { get; internal set; }
         [Required]
         public string Name { get; set; }
