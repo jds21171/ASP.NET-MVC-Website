@@ -12,6 +12,8 @@ namespace BookListMVC.Controllers
     {
         private readonly ApplicationDbContext _db;
 
+        [BindProperty]
+        public Book Book { get; set; }
         public BooksController(ApplicationDbContext db)
         {
             _db = db;
@@ -20,6 +22,26 @@ namespace BookListMVC.Controllers
         {
             return View();
         }
+
+        public IActionResult Upsert(int? id)
+        {
+            Book = new Book();
+            if (id==null)
+            {
+                // Create
+                return View(Book);
+            }
+            // Update
+            Book = _db.Books.FirstOrDefault(u => u.Id == id);
+            if (Book==null)
+            {
+                return NotFound();
+            }
+
+            return View(Book);
+        }
+
+
         #region API Calls
         [HttpGet]
         public async Task<IActionResult> GetAll()
