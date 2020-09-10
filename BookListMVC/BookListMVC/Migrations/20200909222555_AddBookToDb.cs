@@ -10,7 +10,7 @@ namespace BookListMVC.Migrations
                 name: "Books",
                 columns: table => new
                 {
-                    ID = table.Column<int>(nullable: false)
+                    Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(nullable: false),
                     Author = table.Column<string>(nullable: true),
@@ -18,7 +18,7 @@ namespace BookListMVC.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Books", x => x.ID);
+                    table.PrimaryKey("PK_Books", x => x.Id);
                 });
         }
 

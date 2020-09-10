@@ -375,9 +375,9 @@ C:\Users\jds21\gitProjects\BookListMVC\BookListMVC\BookListMVC\bin\Debug\netcore
 C:\Users\jds21\gitProjects\BookListMVC\BookListMVC\BookListMVC\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\jds21\gitProjects\BookListMVC\BookListMVC\BookListMVC\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\jds21\gitProjects\BookListMVC\BookListMVC\BookListMVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\jds21\gitProjects\BookListMVC\BookListMVC\BookListMVC\obj\Debug\netcoreapp3.1\BookListMVC.csproj.CoreCompileInputs.cache
-C:\Users\jds21\gitProjects\BookListMVC\BookListMVC\BookListMVC\obj\Debug\netcoreapp3.1\BookListMVC.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\jds21\gitProjects\BookListMVC\BookListMVC\BookListMVC\obj\Debug\netcoreapp3.1\BookListMVC.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jds21\gitProjects\BookListMVC\BookListMVC\BookListMVC\obj\Debug\netcoreapp3.1\Razor\Controllers\Index.cshtml.g.cs
 C:\Users\jds21\gitProjects\BookListMVC\BookListMVC\BookListMVC\obj\Debug\netcoreapp3.1\Razor\Views\Books\Index.cshtml.g.cs
 C:\Users\jds21\gitProjects\BookListMVC\BookListMVC\BookListMVC\obj\Debug\netcoreapp3.1\Razor\Views\Books\Upsert.cshtml.g.cs
+C:\Users\jds21\gitProjects\BookListMVC\BookListMVC\BookListMVC\obj\Debug\netcoreapp3.1\BookListMVC.csproj.CoreCompileInputs.cache
+C:\Users\jds21\gitProjects\BookListMVC\BookListMVC\BookListMVC\obj\Debug\netcoreapp3.1\BookListMVC.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jds21\gitProjects\BookListMVC\BookListMVC\BookListMVC\obj\Debug\netcoreapp3.1\BookListMVC.MvcApplicationPartsAssemblyInfo.cache
